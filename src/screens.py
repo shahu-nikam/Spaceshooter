@@ -1,6 +1,3 @@
-# screens.py
-# everything related to drawing the different screens - menu, difficulty, results, settings, game over
-
 import pygame
 import math
 import random

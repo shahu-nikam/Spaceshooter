@@ -1,6 +1,3 @@
-# scores.py
-# handles reading and writing high scores to a text file
-
 import os
 from constants import score_file
 

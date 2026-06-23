@@ -1,6 +1,3 @@
-# game_state.py
-# holds the function that gives us a fresh game state every time we restart
-
 from constants import W, pwidth, H
 
 def reset(pspeed_val=6):

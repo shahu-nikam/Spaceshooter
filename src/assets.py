@@ -1,12 +1,10 @@
-# assets.py
-# loads images, sounds, music and fonts for the game
-# paths are relative to the assets folder so this works on any pc, not just mine
+
 
 import pygame
 import os
 from constants import enemy_size, pwidth, pheight
 
-# go two levels up from src/ to project root, then into assets/
+
 BASE_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMG_PATH      = os.path.join(BASE_DIR, "assets", "images", "img_png")
 POWERUP_PATH  = os.path.join(BASE_DIR, "assets", "images", "powerup")

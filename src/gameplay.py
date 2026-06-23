@@ -1,6 +1,3 @@
-
-# the actual in-game loop - movement, shooting, enemies, powerups, collisions, HUD
-
 import pygame
 import random
 from constants import W, H, WHITE, RED, GREEN, YELLOW, BLUE, bullet_speed, fire_gap, diff_data
